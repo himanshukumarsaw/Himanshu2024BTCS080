@@ -1,12 +1,45 @@
 {
-  "name": "Himanshu kumar saw",
-  "tag": "Full stack Developer",
-  "shortBio": "I am senior Developer in Google",
-  "fullBio": "I have 5 years of tech experience since from 2020. Currently i am working as a senior developer in google",
+  "name": "Himanshu Kumar Saw",
+  "tag": "Full Stack Developer",
+  "shortBio": "I am a senior developer at Google.",
+  "bioLines": [
+    "My name is Himanshu Kumar Saw and I build web applications.",
+    "I have worked with both frontend and backend code.",
+    "I enjoy learning new tools like React, Node.js, and modern JavaScript.",
+    "I like to solve problems and make websites easy to use.",
+    "I build real projects that help people and businesses.",
+    "I am always ready to learn and improve my skills."
+  ],
+  "fullBio": "I have 5 years of technology experience since 2020. Currently I work on web applications that help people and businesses.",
   "skills": [
-    { "title": "Mern", "items": ["React", "Nodejs", "Js"] }
+    {
+      "title": "Technical",
+      "items": ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+    },
+    {
+      "title": "Communication",
+      "items": ["Teamwork", "Writing", "Presentation", "Problem Solving"]
+    },
+    {
+      "title": "Tools",
+      "items": ["Git", "VS Code", "Vite", "Chrome DevTools"]
+    }
   ],
   "projects": [
-    { "title": "FileAI", "bio": "Track all file using Ai", "tags": ["MERN", "Api Integration"] }
+    {
+      "title": "FileAI",
+      "bio": "A project to track files using AI and keep information organized.",
+      "tags": ["MERN", "API Integration", "AI"]
+    },
+    {
+      "title": "Portfolio Site",
+      "bio": "A simple website to show my work, skills, and contact information.",
+      "tags": ["React", "CSS", "Responsive"]
+    },
+    {
+      "title": "Todo App",
+      "bio": "An app for adding, editing, and deleting tasks with simple design.",
+      "tags": ["JavaScript", "HTML", "CSS"]
+    }
   ]
 }
