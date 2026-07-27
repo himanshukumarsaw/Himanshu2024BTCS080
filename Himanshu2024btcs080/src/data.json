@@ -1,0 +1,12 @@
+{
+ name: "Himanshu kumar saw",
+ tag: "Full stack Developer", // e.g. "Full Stack Developer"
+ shortBio: "I am senior Developer in Google", // 2–3 lines, used on Home
+ fullBio: "I have 5 years of tech experience since from 2020. Currently i am working as a senior developer in google", // 5–6 lines, used on About
+ skills: [
+ { title: "...", items: ["...", "..."] },
+ ],
+ projects: [
+ { title: "FileAI", bio: "Track all file using Ai", tags: ["MERN", "Api Integration"] },
+ ],
+}
