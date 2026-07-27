@@ -2,38 +2,24 @@ import React from "react";
 import { Link } from "react-router";
 import data from "../../data.json";
 
-const Home = () => {
-  const bioLines = [
-    data.shortBio,
-    ...data.fullBio.split(". ").filter(Boolean).slice(0, 2),
-  ];
+function Home() {
+  const name = data.name;
+  const role = data.tag;
+  const shortBio = data.shortBio;
+  const firstSentence = data.fullBio;
 
   return (
     <div>
-      <div>
-        <div>
-          <h1>Welcome</h1>
-          <h2>Hi, I am {data.name}</h2>
-          <p>{data.tag}</p>
-          {bioLines.map((line, index) => (
-            <p key={index}>
-              {line}
-            </p>
-          ))}
-          <Link to="/about">
-            Know More
-          </Link>
-        </div>
+      <h1>Welcome</h1>
+      <h2>Hi, I am {name}</h2>
+      <p>{role}</p>
 
-        <div>
-          <img
-            src=""
-            alt={data.name}
-          />
-        </div>
-      </div>
+      <p>{shortBio}</p>
+      <p>{firstSentence}.</p>
+
+      <Link to="/about">Know More</Link>
     </div>
   );
-};
+}
 
 export default Home;
