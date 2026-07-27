@@ -16,7 +16,7 @@ function Home() {
 
       <p>{shortBio}</p>
       <p>{firstSentence}.</p>
-
+      <img src="./src/assets/1.jpg" height="80px"></img>
       <Link to="/about">Know More</Link>
     </div>
   );
