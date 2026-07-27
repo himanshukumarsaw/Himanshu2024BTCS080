@@ -1,4 +1,3 @@
-import "./App.css";
 import { Routes, Route, useLocation } from "react-router";
 import Home from "./features/Home/Home.jsx";
 import About from "./features/About/About.jsx";

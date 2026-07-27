@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
         <div className="header">
          <div>
-            <Link className='link' to={"/"}><h2>Logo</h2></Link>
+            <Link className='link' to={"/"}><h2>Himanshu</h2></Link>
          </div>
          <div>  
             <ul>
@@ -19,6 +19,9 @@ const Navbar = () => {
                     <Link className='link' to="/contact">Contact</Link>
                 </li>
             </ul>
+         </div>
+         <div>
+            <h2>Full Stack Developer</h2>
          </div>
     </div>
   )
